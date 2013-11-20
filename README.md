@@ -1,7 +1,7 @@
 Path
 ===========
 
-Utilities for handling and transforming file paths.
+Utilities for file paths.
 
 
 Install

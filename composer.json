@@ -1,6 +1,6 @@
 {
     "name": "kumatch/path",
-    "description":"utilities for file paths.",
+    "description":"Utilities for file paths.",
     "type":"library",
     "homepage": "https://github.com/kumatch/php-path",
     "keywords":["path"],
