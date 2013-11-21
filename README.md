@@ -3,7 +3,7 @@ Path
 
 Utilities for file paths.
 
-[![Build Status](https://secure.travis-ci.org/kumatch/php-path.png](https://travis-ci.org/kumatch/php-path)
+[![Build Status](https://travis-ci.org/kumatch/php-path.png?branch=master)](https://travis-ci.org/kumatch/php-path)
 
 
 Install
