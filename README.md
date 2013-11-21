@@ -32,7 +32,7 @@ use Kumatch\Path;
 ```
 
 
-### Path.normalize($path)
+### Path::normalize($path)
 
 Normalize a string path.
 
@@ -48,7 +48,7 @@ Path.normalize("/foo/../../");
 ```
 
 
-### Path.join([$path1], [$path2], [...])
+### Path::join([$path1], [$path2], [...])
 
 Join all arguments together and normalize path.
 
@@ -64,7 +64,7 @@ Path.join("/foo", "bar", "baz/qux", "../..");
 ```
 
 
-### Path.dirname($path)
+### Path::dirname($path)
 
 Return the directory name of a path. (same PHP `dirname($path)`.)
 
@@ -77,7 +77,7 @@ Path.dirname("foo/bar/baz/../qux");
 ```
 
 
-### path.basename($path, [$ext])
+### Path::basename($path, [$ext])
 
 Return the last portion of a path. (same PHP `basename($path)`.)
 
@@ -96,7 +96,7 @@ Path.basename("/path/to/foo.txt", "foo.txt");
 ```
 
 
-### path.extname($path)
+### Path::extname($path)
 
 Return the extension of the path, from the last '.' to end of string.
 
